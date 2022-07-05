@@ -5,7 +5,7 @@ import "time"
 
 func Test_ (t *testing.T) {
 	for {
-		_ba00 := CombGUID_Estb ("", 32)
+		_ba00 := CombGUID_Estb ("syst", 28)
 		if _ba00 == nil {
 			fmt.Println ("no datat!")
 		} else {
